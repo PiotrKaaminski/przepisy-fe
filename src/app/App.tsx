@@ -12,7 +12,7 @@ import {
   Outlet,
 } from "react-router-dom";
 import { CreateRecipePage, ProtectedPage, RecipeDetailsPage, RecipesPage, RegisterPage } from "./pages";
-import { useLoginMutation } from "./api/modules/authentication";
+import { useLoginMutation } from "./api";
 import { QueryClient, QueryClientProvider } from "react-query";
 
 import { Button, Col, Container, Form, Row } from "react-bootstrap";

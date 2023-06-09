@@ -137,6 +137,6 @@ function RecipesPage() {
         </Container>
     </>
   )
-};
+}
 
 export default RecipesPage;

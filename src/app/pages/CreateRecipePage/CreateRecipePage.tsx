@@ -61,7 +61,7 @@ function CreateRecipePage() {
                 body: form
             }).then((response) => { 
                 console.log('response: ', response);
-                response.ok === true ? setSuccess(true) : setError(true);
+                response.ok ? setSuccess(true) : setError(true);
             })
         } catch (error) {
             console.error(error);
@@ -201,6 +201,6 @@ function CreateRecipePage() {
             </Container>
         </section>
     );
-};
+}
 
 export default CreateRecipePage;
